@@ -11,6 +11,7 @@ const HomePage = () => {
           {categories.map((category, idx) => (
             <CategoryCardComponent key={idx} category={category} idx={idx} />
           ))}
+          <div></div>
         </Row>
       </Container>
     </>
